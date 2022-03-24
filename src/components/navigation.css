@@ -1,0 +1,54 @@
+.header {
+    font-family: Bogart;
+
+    position: sticky;
+    top: 0;
+    
+  
+    width: 100vw;
+    height: 4rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-title {
+    font-family: Bogart;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(180deg, rgb(0, 225, 255), rgb(102, 155, 255), rgb(223, 143, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .nav-list {
+    margin: 0;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    font-size: 150%;
+
+    
+  }
+  
+  .list-item {
+    transition: 0.15s;
+  }
+
+  .list-item:hover {
+    background: rgb(255, 255, 255);
+  }
+  
+  .nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    transition: 0.15s;
+  }
+  
+  .nav-link:hover {
+    color: rgb(0, 0, 0);
+  }
