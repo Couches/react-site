@@ -8,7 +8,7 @@ function Navigation() {
       <ul className="nav-list">
         <li className="list-item">
           <Link to="/" className="nav-link">
-          <span className="header-title">robert de lappe.</span>
+            <span className="header-title">robert de lappe.</span>
           </Link>
         </li>
         <li className="list-item">
@@ -22,7 +22,7 @@ function Navigation() {
           </Link>
         </li>
         <li className="list-item">
-          <Link to="/contact" className="nav-link">
+          <Link to="*" className="nav-link">
             contact
           </Link>
         </li>

@@ -4,32 +4,11 @@
   src: url("fonts/bogart.woff2") format('woff2');
 }
 
-html, #root, body, .page-content, .content-container {
-  height: 100%;
-}
-
 body {
-  background-color: rgb(46, 46, 46);
-}
-
-.page-content {
-  background-size: 100%;
-  
-  color: rgb(255, 255, 255);
-
-  font-family: Lato;
+  background-color: rgb(36, 36, 36);
 
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
-.content-container {
-  width: 75%;
-  max-width: 75rem;
-}
-
-.content-header {
-  font-weight: 700;
-}
