@@ -1,4 +1,4 @@
-.header {
+.top-navbar {
     font-family: Bogart;
 
     position: sticky;
@@ -13,7 +13,7 @@
     justify-content: center;
   }
   
-  .header-title {
+  .top-navbar-title {
     font-family: Bogart;
     font-weight: 700;
 

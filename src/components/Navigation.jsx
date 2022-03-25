@@ -4,11 +4,11 @@ import "./navigation.css";
 
 function Navigation() {
   return (
-    <div className="header">
+    <div className="top-navbar">
       <ul className="nav-list">
         <li className="list-item">
           <Link to="/" className="nav-link">
-            <span className="header-title">robert de lappe.</span>
+            <span className="top-navbar-title">robert de lappe.</span>
           </Link>
         </li>
         <li className="list-item">
