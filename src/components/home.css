@@ -1,7 +1,35 @@
 .home {
-
+    margin: 0 auto;
+    
+    max-width: 75rem;
+    width: 90%;
 }
 
-.home h1, h3{
-    color: white;
+.home h1 {
+    color: var(--text-color);
+    font-family: Bogart;
+    font-size: calc(65px + 4vw);
+
+    line-height: calc(30px + 2vw);
+
+    margin-top: 25px;
+}
+
+.home h3 {
+    color: var(--text-color);
+    font-family: Bogart;
+    font-size: calc(30px + 2vw);
+}
+
+@media all and (max-width: 639px)
+{
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home h3 {
+        text-align: center;
+    }
 }

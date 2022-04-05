@@ -1,18 +1,23 @@
-.about {
+.contact {
     margin: 0 auto;
 
     max-width: 75rem;
     width: 90%;
 }
 
-.about h1 {
+.contact h1 {
+    color: var(--text-color);
+    font-family: Bogart;
+}
+
+.contact h3 {
     color: var(--text-color);
     font-family: Bogart;
 }
 
 @media all and (max-width: 639px)
 {
-    .about {
+    .contact {
         display: flex;
         align-items: center;
         justify-content: center;
