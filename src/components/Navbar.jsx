@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useCallback } from "react";
 
 import "./navbar.css";
 
@@ -32,39 +33,6 @@ function NavItem(props)
   )
 }
 
-function DropdownButton(props)
-{
-  const [open, setOpen] = useState(false);
 
-  return (
-      <div>
-        <a href="#" className="dropdown-icon" onClick={() => setOpen(!open)}> 
-          {props.text} 
-        </a>
 
-        {open && props.children}
-      </div>
-  )
-}
-
-function DropdownMenu()
-{
-  function DropdownItem(props)
-  {
-    return (
-      <div className="nav-item">
-        <NavLink to={props.to} className="nav-link"> {props.text} </NavLink>
-      </div>
-    );
-  }
-
-  return (
-    <div className="dropdown">
-      <DropdownItem to="/projects" text="projects"/>
-      <DropdownItem to="/about" text="about"/>
-      <DropdownItem to="/contact" text="contact"/>
-    </div>
-  );
-}
-
-export { Navbar, NavItem, NavTitle, DropdownButton, DropdownMenu };
+export { Navbar, NavItem, NavTitle };
